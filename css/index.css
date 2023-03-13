@@ -24,6 +24,46 @@ header {
 
 
 
+
+/* Regole di stile main */
+
+#article-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#author-name {
+  color: rgb(0, 0, 255);
+}
+
+#photo-info {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#article-body, #list {
+  margin-left: 20px;
+}
+
+#paragraph, #list, table {
+  margin-bottom: 20px;
+}
+
+#highlighted {
+  background-color: yellow;
+}
+
+thead {
+  background-color: lightblue;
+}
+
+.table-background {
+  background-color: lightgray;
+}
+
+
+
 /* Regole di stile footer */
 
 footer h3 {
