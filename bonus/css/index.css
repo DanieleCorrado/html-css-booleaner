@@ -1,0 +1,98 @@
+/* Regole di stile generali */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* Regole di stile header */
+
+header {
+  background-color: lightblue;
+  background-image: url("../img/pattern.png");
+  height: 100px;
+}
+
+#logo {
+  margin-left: 19%;
+  width: 10%;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+
+
+
+/* Regole di stile main */
+
+#article-title {
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+#author-name {
+  color: rgb(0, 0, 255);
+}
+
+#photo-info {
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#article-body, #list {
+  margin-left: 20px;
+}
+
+.paragraph, table {
+  margin-bottom: 20px;
+  margin-left: 19%;
+  margin-right: 19%;
+}
+
+#list {
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+#highlighted {
+  background-color: yellow;
+}
+
+thead {
+  background-color: lightblue;
+}
+
+.table-background {
+  background-color: lightgray;
+}
+
+
+
+/* Regole di stile footer */
+
+footer {
+  margin-left: 19%;
+}
+
+footer h3 {
+  color: gray;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  position: relative;
+  padding-left: 20px;
+}
+
+.article-name {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 30px;
+}
